@@ -9,7 +9,7 @@ public class EncuentraPrimos {
 		long t0 = (new Date()).getTime();
 
 		Hilo1 h1 = new Hilo1();
-		Hilo1 h2 = new Hilo1();
+		Hilo2 h2 = new Hilo2();
 
 		Thread hilo1 = new Thread(h1);
 		Thread hilo2 = new Thread(h2);
